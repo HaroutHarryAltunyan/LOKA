@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Leave Our Kids Alone!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
   
@@ -27,13 +28,19 @@
     <!-- Navbar menu (which should be toggled in mobile mode) -->
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">Home</a>
-        <a class="navbar-item">Documentation</a>
-        <a class="navbar-item">Resources</a>
-        <a class="navbar-item">Petition</a>  
-        <a class="navbar-item">Events</a>  
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">More</a>
+        <a href="./home.html" class="navbar-item">Home</a>
+        <a href="./documentation.html" class="navbar-item">Documentation</a>
+        <a href="./resources.html" class="navbar-item">Resources</a>
+        <a href="./petition.html" class="navbar-item">Petition</a>
+        <a href="./events.html" class="navbar-item">Events</a>
+      </div>
+    </div>
+
+
+        <div class="navbar-item has-dropdown is-hoverable" id="moreDropdownContainer">
+          <a class="navbar-link" id="moreDropdown">
+            More
+          </a>
           <div class="navbar-dropdown">
             <a class="navbar-item">About</a>
             <a class="navbar-item">Volunteer</a>
